@@ -1,6 +1,7 @@
 const express = require('express');
 const shipping = require('./shipping');
 const inventory = require('./inventory');
+const reviews = require('./review');
 const cors = require('cors');
 
 const app = express();
